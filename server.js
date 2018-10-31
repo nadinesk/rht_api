@@ -9,12 +9,12 @@ require('dotenv').config()
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
-/*app.use(cors())
+app.use(cors())
 
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({ extended: true})); 
 
-app.use('/api/tweets', tweetRouter);  */
+app.use('/api/tweets', tweetRouter);  
 
 
 
